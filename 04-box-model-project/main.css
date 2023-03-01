@@ -1,0 +1,73 @@
+/* 
+
+- light grey #f1f5f9
+- white #fff
+- light pink #ffe8f1
+- dark pink #ff69a6
+- light blue #ecf4ff
+- dark blue #68a3ff
+
+*/
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f1f5f9;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  margin: 3rem;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  max-width: 300px;
+  /* auto 表示左右居中 */
+  margin: 3rem auto;
+}
+
+.card-1 {
+  border-color: #ff69a6;
+}
+.card-2 {
+  border-color: #68a3ff;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  background: red;
+  border-radius: 50%;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.card-1 .icon {
+  background: #ff69a6;
+}
+.card-2 .icon {
+  background: #68a3ff;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.text {
+  line-height: 1.5;
+  color: #64748b;
+}
+.btn {
+  text-transform: uppercase;
+  border: transparent;
+  padding: 0.5rem 1rem;
+  letter-spacing: 2px;
+}
+
+.btn-pink {
+  background: #ffe8f1;
+  color: #ff69a6;
+}
+.btn-blue {
+  background: #ecf4ff;
+  color: #68a3ff;
+}
